@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Operator";
+}
+
+<h2>Operator</h2>
+
+<div class="chat-messages">
+    <ul id="messagesList"></ul>
+</div>
+
+<input type="text" id="chat-input" placeholder="Mesajınızı yazın..." />
+<button id="chat-send">Gönder</button>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.3/signalr.min.js"></script>
+    <script src="~/js/chat.js"></script>
+    <script>
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+        connection.on("ReceiveMessage", function (user, message) {
+            var msg = user + ": " + message;
+            var li = document.createElement("li");
+            li.textContent = msg;
+            document.getElementById("messagesList").appendChild(li);
+        });
+
+        connection.start().catch(function (err) {
+            return console.error(err.toString());
+        });
+
+        document.getElementById("chat-send").addEventListener("click", function (event) {
+            var message = document.getElementById("chat-input").value;
+            var user = "Operatör"; // Operatör adı
+            connection.invoke("SendMessage", user, message).catch(function (err) {
+                return console.error(err.toString());
+            });
+            event.preventDefault();
+        });
+    </script>
+}

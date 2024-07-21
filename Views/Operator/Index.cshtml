@@ -1,0 +1,160 @@
+﻿@model TriatlonProject.ViewModel.OperatorViewModel
+
+<div class="container">
+    <h2>Tüm Kullanıcılar ve Mesajları</h2>
+    <div class="row">
+        <!-- Sol Taraf: Kullanıcı Listesi -->
+        <div class="col-md-4 user-list">
+            <ul id="userList" class="list-group">
+                @foreach (var message in Model.Messages.GroupBy(m => m.SenderUsername).Select(g => g.First()))
+                {
+                    <li class="list-group-item user-item" data-username="@message.SenderUsername">
+                        <i class="fas fa-user"></i> <a href="#" class="user-link">@message.SenderUsername</a>
+
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Sağ Taraf: Mesajlar -->
+        <div class="col-md-8">
+            <h3>Seçilen Kullanıcının Mesajları</h3>
+            <ul id="messagesList" class="list-group">
+                <!-- Mesajlar burada görüntülenecek -->
+            </ul>
+            <div class="chat-input">
+                <form id="operatorMessageForm">
+                    <input type="hidden" id="operatorUsername" value="@Model.CurrentUsername" />
+                    <input type="text" id="operatorChatInput" name="message" placeholder="Mesajınızı yazın..." />
+                    <button type="button" id="operatorChatSend">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    let selectedUser = null;
+
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chathub")
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+
+    connection.start().then(function () {
+        console.log("SignalR connected");
+    }).catch(function (err) {
+        return console.error(err.toString());
+    });
+
+    connection.on("ReceiveMessage", function (user, message) {
+        if (user === selectedUser || user === 'Operator') {
+            const li = document.createElement("li");
+            li.textContent = `${user}: ${message}`;
+
+            li.className = user === 'Operator' ? 'sent-message' : 'received-message';
+            document.getElementById("messagesList").appendChild(li);
+            scrollToBottom();
+        }
+    });
+
+    $(".user-link").click(function (e) {
+        e.preventDefault();
+        selectedUser = $(this).closest('.user-item').data("username");
+        $("#messagesList").empty();
+        loadMessages(selectedUser);
+    });
+
+    function loadMessages(username) {
+        $.get(`/Operator/GetMessages?username=${username}`, function (data) {
+            data.forEach(function (message) {
+                const li = document.createElement("li");
+                li.textContent = `${message.senderUsername}: ${message.text}`;
+                li.className = message.senderUsername === 'Operator' ? 'sent-message' : 'received-message';
+
+                document.getElementById("messagesList").appendChild(li);
+            });
+        });
+    }
+
+    $("#operatorChatSend").click(function () {
+        const message = $("#operatorChatInput").val();
+        sendMessage(message);
+        $("#operatorChatInput").val("");
+    });
+
+    function sendMessage(message) {
+        if (selectedUser) {
+            $.post("/Operator/SendMessage", { message: message, selectedUser: selectedUser }, function (data) {
+                connection.invoke("SendMessage", 'Operator', message).catch(function (err) {
+                    return console.error(err.toString());
+                });
+            });
+        }
+    }
+
+    function scrollToBottom() {
+        var chatMessages = document.getElementById("messagesList");
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    $(document).ready(function () {
+        scrollToBottom();
+    });
+</script>
+
+<style>
+    .user-list {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .chat-input {
+        border-top: 1px solid #ccc;
+        padding: 10px;
+        display: flex;
+    }
+
+        .chat-input input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+
+        .chat-input button {
+            padding: 5px 10px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    .sent-message {
+        text-align: right;
+        color: blue;
+        background-color: #dcf8c6;
+        border-radius: 10px 10px 0 10px;
+        margin-left: auto;
+        padding: 10px;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin-bottom: 10px; /* Mesajlar arasındaki boşluğu ayarlar */
+    }
+
+    .received-message {
+        text-align: left;
+        color: green;
+        background-color: #cce5ff;
+        border-radius: 10px 10px 10px 0;
+        margin-right: auto;
+        padding: 10px;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin-bottom: 10px; /* Mesajlar arasındaki boşluğu ayarlar */
+    }
+</style>

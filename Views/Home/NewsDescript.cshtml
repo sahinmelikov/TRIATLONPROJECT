@@ -1,0 +1,120 @@
+﻿@using TriatlonProject.ViewModel
+@model NewsDescriptViewModel
+
+<div class="single-news-page-wrap wrap">
+    <div class="single-news-page container">
+        <div class="single-news-page__header">
+            <br /><br />
+            <p class="single-news-page__title text text_blue">@Model.NewsItem.Title</p>
+            <div class="single-news-page__header-info">
+                <p class="single-news-page__date text text_gray text_small">@Model.NewsItem.DateTime.ToString("dd.MM.yyyy")</p>
+                <p class="single-news-page__strip text text_blue">
+                    <span>News</span>
+                </p>
+            </div>
+        </div>
+        <div class="single-news-page__main-img">
+            <img src="~/RootAllPictures/img/@Model.NewsItem.ImagePath" alt="@Model.NewsItem.Title" />
+        </div>
+        <div class="single-news-page__info">
+            <div class="single-news-page__content text text_gray">
+                <p>@Model.NewsItem.Description</p>
+            </div>
+        </div>
+    </div>
+    <div class="similar-news-wrap wrap">
+        <div class="similar-news container">
+            <p class="title-default title-default_del">RELATED NEWS</p>
+            <div class="similar-news-list">
+                @foreach (var news in Model.SimilarNews)
+                {
+                    <div class="news-screen-slider__item">
+                        <a class="news-item" href="@Url.Action("NewsDescript", "Home", new { id = news.Id })">
+                            <div class="news-item__item-img-wrap">
+                                <img class="news-item__item-img" src="~/RootAllPictures/img/@news.ImagePath" alt="@news.Title" title="@news.Title">
+                            </div>
+                            <div class="news-item__item-gradient"></div>
+                            <div class="news-item__item-text-block" style="background-color: #fff;">
+                                <div class="news-item__strips-block">
+                                    <div class="news-item__item-strip">
+                                        <span>News</span>
+                                    </div>
+                                </div>
+                                <p class="news-item__item-text text text_regular text_blue">@news.Title</p>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .single-news-page-wrap {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .single-news-page__title {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #007bff;
+    }
+
+    .single-news-page__header-info {
+        margin-bottom: 20px;
+    }
+
+    .single-news-page__main-img img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .single-news-page__content {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+
+    .similar-news-wrap {
+        margin-top: 40px;
+    }
+
+    .title-default {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .similar-news-list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .news-screen-slider__item {
+        flex: 1 1 calc(33.333% - 20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    .news-item__item-img-wrap img {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-item__item-text-block {
+        padding: 15px;
+    }
+
+    .news-item__item-strip {
+        margin-bottom: 5px;
+    }
+</style>

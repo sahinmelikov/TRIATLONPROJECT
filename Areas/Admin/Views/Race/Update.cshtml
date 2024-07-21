@@ -1,0 +1,56 @@
+﻿@using TriatlonProject.ViewModel
+
+@model RaceUpdateVM
+
+<div class="card-body">
+    <form class="forms-sample" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Country"></label>
+            <input asp-for="Country" class="form-control" />
+            <span asp-validation-for="Country"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="YarishYolu"></label>
+            <input asp-for="YarishYolu" class="form-control" />
+            <span asp-validation-for="YarishYolu"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="VeloYolu"></label>
+            <input asp-for="VeloYolu" class="form-control" />
+            <span asp-validation-for="VeloYolu"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="UzgucuYolu"></label>
+            <input asp-for="UzgucuYolu" class="form-control" />
+            <span asp-validation-for="UzgucuYolu"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DateTime"></label>
+            <input asp-for="DateTime" class="form-control" />
+            <span asp-validation-for="DateTime"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Photo"></label>
+            <input asp-for="Photo" class="form-control" />
+            <span asp-validation-for="Photo"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <button asp-controller="Race" asp-action="Index" class="btn btn-light">Cancel</button>
+    </form>
+</div>

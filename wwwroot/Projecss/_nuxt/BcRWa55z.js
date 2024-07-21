@@ -1,0 +1,1 @@
+import{o as n,a as r,f as a,bj as l,d as e,b as t,p as c,R as d,an as i,bk as _,bl as f}from"./bIp8vrNC.js";const p={class:"page-wrap"},u={class:"main-content"},v={__name:"default",setup(m){return(o,s)=>(n(),r("div",p,[a(l),e(),t("div",{class:"shadow",onClick:s[0]||(s[0]=b=>c(d)(!1))}),e(),t("main",u,[i(o.$slots,"default"),e(),a(_)]),e(),a(f)]))}};export{v as default};

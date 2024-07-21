@@ -1,0 +1,118 @@
+﻿@model TriatlonProject.ViewModel.RegistrationViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triatlon Kayıt Formu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Triatlon Kayıt Formu</h2>
+
+        <!-- Bildirim Mesajı Modalı -->
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="modal" id="messageModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Bildirim</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>@TempData["ErrorMessage"]</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <!-- Ferdi Kayıt Formu -->
+        <div id="individualRegistrationForm">
+            <h4 class="mb-3">Ferdi Kayıt Formu</h4>
+            <form asp-controller="Home" asp-action="RegisterYarishma" method="post">
+                <div class="form-group">
+                    <label for="firstName">Ad:</label>
+                    <input type="text" class="form-control" id="firstName" name="Name" placeholder="Adınızı daxil edin" value="@Model.Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Soyad:</label>
+                    <input type="text" class="form-control" id="lastName" name="SurName" placeholder="Soyadınızı daxil edin" value="@Model.SurName" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailAddress">Email Adresi:</label>
+                    <input type="email" class="form-control" id="emailAddress" name="EmailAddres" placeholder="Email adresinizi daxil edin" value="@Model.EmailAddres" readonly required>
+                </div>
+                <div class="form-group">
+                    <label for="cinsi">Cinsi:</label>
+                    <select class="form-control" id="cinsi" name="Cinsi" required>
+                        <option value="">Seçin</option>
+                        <option value="Erkek">Erkek</option>
+                        <option value="Kadın">Kadın</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Doğum Tarihi:</label>
+                    <input type="date" class="form-control" id="birthdate" name="NewYear" value="@Model.NewYear" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">Ülke:</label>
+                    <select class="form-control" id="country" name="Country" required>
+                        <option value="">Ülkenizi seçin</option>
+                        <option value="Azerbaycan">Azerbaycan</option>
+                        <option value="Türkiye">Türkiye</option>
+                        <option value="Rusya">Rusya</option>
+                        <option value="Gürcistan">Gürcistan</option>
+                        <option value="Almanya">Almanya</option>
+                        <option value="Fransa">Fransa</option>
+                        <option value="İngiltere">İngiltere</option>
+                        <option value="Amerika Birleşik Devletleri">Amerika Birleşik Devletleri</option>
+                        <option value="Kanada">Kanada</option>
+                        <option value="Avustralya">Avustralya</option>
+                        <option value="Japonya">Japonya</option>
+                        <option value="Çin">Çin</option>
+                        <option value="Hindistan">Hindistan</option>
+                        <option value="Brezilya">Brezilya</option>
+                        <option value="Meksika">Meksika</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tShirtSize">T-Shirt Bedeni:</label>
+                    <select class="form-control" id="tShirtSize" name="T_ShirtSie" required>
+                        <option value="">Bedeninizi seçin</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                </div>
+                <input type="hidden" name="RaceId" value="@Model.RaceId" />
+                <button type="submit" class="btn btn-primary btn-register">Kayıt Ol</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <text>
+                    $('#messageModal').modal('show');
+            </text>
+        }
+                });
+    </script>
+
+</body>
+</html>

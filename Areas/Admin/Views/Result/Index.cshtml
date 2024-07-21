@@ -1,0 +1,235 @@
+﻿@using TriatlonProject.Models
+
+@model List<SonuclarAciklandi>
+@{
+    int count = 1;
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Race Results</h4>
+            <p class="card-description">
+                Activate or deactivate race results using the switch.
+            </p>
+            <div class="table-responsive w-75">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Count
+                            </th>
+                            <th>
+                                Race Name
+                            </th>
+                            <th>
+                                Active Status
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@count</td>
+                                <td>@item.Race.Name</td>
+                                <td>
+                                    <label class="switch">
+                                        <input type="checkbox" data-id="@item.Id" @(item.IsActive == true ? "checked" : "") onchange="toggleActive(this)">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </td>
+                            </tr>
+                            count++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleActive(checkbox) {
+        var isActive = checkbox.checked;
+        var id = checkbox.dataset.id;
+
+        fetch('@Url.Action("ToggleIsActive", "Result", new { area = "Admin", id = "__id__" })'.replace('__id__', id), {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ isActive: isActive })
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error updating active status');
+                }
+                alert('Active status updated successfully');
+            })
+            .catch(error => {
+                alert(error.message);
+            });
+    }
+
+</script>
+<style>
+    .trash-menu {
+        width: 100%;
+        height: auto;
+        background-color: #222831;
+        border-radius: 0.5rem;
+        color: #eca100;
+        padding: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+        .trash-menu p {
+            margin-bottom: 0.5rem;
+        }
+
+    .button-border {
+        border: 1px solid #eca100;
+        color: #eca100;
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        transition: all 0.3s ease;
+    }
+
+        .button-border:hover {
+            background-color: #eca100;
+            color: #222831;
+        }
+
+        .button-border.xeyr {
+            margin-left: 0.5rem;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f8f9fa;
+    }
+
+    .table-striped th {
+        background-color: #222831;
+        color: #eca100;
+    }
+
+
+
+
+    body {
+        background-color: #eca6; /* Sayfa arka plan rengi */
+    }
+
+    .card {
+        background-color: #f8f9fa; /* Kart arka plan rengi */
+    }
+
+    .table-responsive {
+        background-color: #ffffff; /* Tablo arka plan rengi */
+        border-radius: 0.5rem;
+        padding: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .table-striped {
+        background-color: #ffffff; /* Çizgili tablo arka plan rengi */
+    }
+
+
+        .table-striped td, .table-striped th {
+            border: none;
+        }
+
+    .btn-primary {
+        background-color: #eca100;
+        border-color: #eca100;
+    }
+
+        .btn-primary:hover {
+            background-color: #f3b72b;
+            border-color: #f3b72b;
+        }
+
+    .btn-secondary {
+        background-color: #222831;
+        border-color: #222831;
+        color: #eca100;
+    }
+
+        .btn-secondary:hover {
+            background-color: #393e46;
+            border-color: #393e46;
+            color: #eca100;
+        }
+
+    .modal-content {
+        background-color: #222831;
+        color: #eca100;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #393e46;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #393e46;
+    }
+</style>
+
+<style>
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .4s;
+    }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+        }
+
+    input:checked + .slider {
+        background-color: #2196F3;
+    }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
+    .slider.round {
+        border-radius: 34px;
+    }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+</style>
+
+   
+

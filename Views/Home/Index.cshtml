@@ -1,0 +1,599 @@
+﻿@model TriatlonProject.ViewModel.ChatViewModel
+
+<style>
+/*     .aa{
+        background-image: url(https://www.shutterstock.com/image-photo/triathlon-sport-collage-man-running-260nw-1866786949.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 0px;
+    } */
+
+    body {
+        background-image: url('https://www.shutterstock.com/image-photo/triathlon-sport-collage-man-running-260nw-1866786949.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+    }
+
+    /* Section'lar için stil */
+
+
+    .news-screen-wrap {
+        background-color: transparent; /* Arka plan resminin görünmesini sağlar */
+        padding: 40px 0;
+    }
+
+    /* Arka plan resminin tekrarlanması */
+    .aa:nth-child(3n) {
+        background-image: url('https://www.shutterstock.com/image-photo/triathlon-sport-collage-man-running-260nw-1866786949.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+
+
+<div class="main-page">
+    <div class="main-wrap wrap aa">
+        <div class="gradient-bg"></div>
+        <div class="main container">
+            <div class="main-text">
+                <div class="main-text__title-block">
+                    <p>@_localization.GetKey("TriatlonWebsite").Value</p>
+                </div>
+                <div class="main-text__sub-title-block">
+                    <p>You are on the official website</p>
+                </div>
+                <!-- <div class="main-text__desc text text_small text_blue">From sports of the highest achievements - to the oldest groups of amateurs! The Triathlon Federation of Ukraine is the platform that unites the entire triathlon community of our country and creates opportunities</div> -->
+                <!-- <a class="btn btn btn_default" href="https://donate.triathlon.org.ua/">get license</a> -->
+            </div>
+        </div>
+    </div>
+  
+    <style>
+        .events-section{
+            background-color:#ccc;
+        }
+       .pattern{
+            background-color:white;
+        }
+    </style>
+   
+    <section class="events events-section">
+  
+      
+        <div class="container">
+            <div class="inner-head">
+                <div class="inner-head-left">
+                    <h2 style="color:black">Race</h2>
+                </div>
+                <div class="inner-head-right">
+                    <a href="/en/results/" class="btn btn-black">Results archive</a>
+                </div>
+            </div>
+            <div class="event-list">
+                <div class="row">
+                    @foreach (var item in Model.Races)
+                    {
+                        <div class="col-lg-4 col-6 col-xxs-12">
+                            <div class="event-item-wrap">
+                                <a href="/en/event/ironstar-113-new-star-2024/" title="" class="event-item">
+                                    <div class="event-item-head">
+                                        <div class="title">@item.Name</div>
+                                        <div class="event-head-info">
+                                            <div class="date">@item.DateTime</div>
+                                            <div class="place">@item.Country</div>
+                                        </div>
+                                    </div>
+                                    <div class="event-image">
+                                        <picture>
+                                            <source media="(max-width: 1024px)" srcset="~/RootAllPictures/img/@item.ImagePath 1x, ~/RootAllPictures/img/@item.ImagePath 2x">
+                                            <source media="(min-width: 1025px)" srcset="~/RootAllPictures/img/@item.ImagePath 1x, ~/RootAllPictures/img/@item.ImagePath 2x">
+                                            <img src="~/RootAllPictures/img/@item.ImagePath" alt="@item.Title" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="event-footer">
+                                        <div class="triathlon">
+                                            <div class="triathlon-item">
+                                                <use href="~/Projecss/_nuxt/icons.xc1H9Ru_.svg#swim"></use>
+                                                <div class="distance">@item.UzgucuYolu km</div>
+                                            </div>
+                                            <div class="triathlon-item">
+                                                <svg class="icons">
+                                                    <use href="~/Projecss/_nuxt/icons.xc1H9Ru_.svg#bike"></use>
+                                                </svg>
+                                                <div class="distance">@item.VeloYolu km</div>
+                                            </div>
+                                            <div class="triathlon-item">
+                                                <svg class="icons">
+                                                    <use href="~/Projecss/_nuxt/icons.xc1H9Ru_.svg#run"></use>
+                                                </svg>
+                                                <div class="distance">@item.YarishYolu km</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="hover-buttons">
+                                    <a asp-route-id="@item.Id" asp-controller="Home" asp-action="RegisterYarishma" class="btn btn-white">Register</a>
+                                    <a asp-route-id="@item.Id" asp-action="ViewDetailsRace" asp-controller="Home" class="btn btn-white">View details</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                 
+                 
+                </div>
+            </div>
+            <div class="link-holder">
+                <a  class="btn btn-white">All Race</a>
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        .btn_center a {
+            text-align:center;
+        }
+    </style>
+
+    <div class="news-screen-wrap wrap">
+        <div class="news-screen aaaaaaa container">
+            <p style="color:white" class="title-default">NEWS</p>
+            <div class="news-screen-slider">
+                <!-- НАЧАЛО ЦЫКЛА ДЛЯ ВЫВОДА ПОПУЛЯРНЫХ ЗАПИСЕЙ БЛОГА -->
+                @foreach (var item in Model.NEws)
+                {
+                    <div class="news-screen-slider__item">
+                        <a asp-controller="Home" asp-action="NewsDescript" class="news-item" asp-route-id="@item.Id">
+                            <div class="news-item__item-img-wrap">
+                                <img class="news-item__item-img" src="~/RootAllPictures/img/@item.ImagePath" alt="alt" title="" />
+                            </div>
+                            <div class="news-item__item-gradient"></div>
+                            <div class="news-item__item-text-block" style="background-color: #fff;">
+                                <div class="news-item__strips-block">
+                                    <div class="news-item__item-strip">
+                                        <span>News</span>
+                                    </div>
+                                </div>
+                                <p class="news-item__item-text text text_regular text_blue">@item.Title</p>
+                            </div>
+                        </a>
+                    </div>
+                }
+
+
+
+                <!-- КОНЕЦ ЦЫКЛА ДЛЯ ВЫВОДА ПОПУЛЯРНЫХ ЗАПИСЕЙ БЛОГА -->
+            </div>
+
+          
+            <a class="btn aaaaa btn btn_default btn_center btn_lines" href="">ALL NEWS</a>
+        </div>
+    </div>
+
+    <!-- <div class="calendar-wrap wrap">
+          <div class="calendar container">
+            <div class="calendar-info">
+              <div class="title-default">CALENDAR</div>
+              <div class="calendar-slider">
+
+
+            </div> -->
+    <!--                <a class="btn btn btn_default btn_line-right" href="https://donate.triathlon.org.ua/">get a license</a>
+             -->
+    <!-- </div> -->
+    <!-- <div class="sidebar">
+              <div class="title-default title-default_del">LICENSE OF THE TRIATLET</div>
+              <div class="sidebar__license-block"><img src="https://www.triathlon.org.ua/wp-content/themes/triatlon/img//license.png" alt="alt"/>
+              </div>
+                               <a class="btn btn btn_default btn_big" href="https://donate.triathlon.org.ua/">get a license</a>
+
+            </div> -->
+    <!-- </div>
+        </div> -->
+
+
+@*     <div class="team-screen-wrap wrap">
+        <div class="team-screen container">
+            <div class="title-default">UKRAINIAN NATIONAL TEAM</div>
+            <div class="team-screen-slider">
+            </div>
+            <a class="btn btn btn_default btn_center btn_lines" href="team_types/osnovnij-sklad-en/index.html">UKRAINIAN NATIONAL TEAM</a>
+        </div>
+    </div> *@
+    <div class="calendar-wrap results-screen-wrap wrap">
+        <div class="calendar container">
+            <div class="calendar-info">
+                <div class="title-default"> RESULTS </div>
+                <div class="calendar-slider">
+                    <!-- Slide oluşturma döngüsü -->
+                    @for (int i = 0; i < Model.Sonnuclar.Count; i += 3)
+                    {
+                        <div class="calendar-slider__item">
+                            <!-- İlk yarış -->
+                            @if (Model.Sonnuclar[i].IsActive == true)
+                            {
+                                <a class="calendar-item" asp-action="RaceAll" asp-controller="Home" asp-route-id="@Model.Sonnuclar[i].RaceId">
+                                    <div class="calendar-item__date">
+                                        <div class="num text_title-big text_blue">@Model.Sonnuclar[i].Race.DateTime.Day.ToString("00")</div>
+                                        <div class="month text_small-extra text_gray">@Model.Sonnuclar[i].Race.DateTime.ToString("MMMM yyyy")</div>
+                                    </div>
+                                    <div class="calendar-item__info">
+                                        <p class="calendar-item__title text text_small text_blue">@Model.Sonnuclar[i].Race.Title</p>
+                                        <div class="calendar-item__place">
+                                            <p class="calendar-item__city text text_gray">@Model.Sonnuclar[i].Race.Country</p>
+                                            <p class="calendar-item__when text text_gray">@Model.Sonnuclar[i].Race.DateTime.ToString("HH:mm")-@Model.Sonnuclar[i].Race.DateTime.ToString("HH:mm")</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            }
+
+                            <!-- İkinci yarış -->
+                            @if (i + 1 < Model.Sonnuclar.Count && Model.Sonnuclar[i + 1].IsActive == true)
+                            {
+                                <a class="calendar-item" asp-action="RaceAll" asp-controller="Home" asp-route-id="@Model.Sonnuclar[i + 1].RaceId">
+                                    <div class="calendar-item__date">
+                                        <div class="num text_title-big text_blue">@Model.Sonnuclar[i + 1].Race.DateTime.Day.ToString("00")</div>
+                                        <div class="month text_small-extra text_gray">@Model.Sonnuclar[i + 1].Race.DateTime.ToString("MMMM yyyy")</div>
+                                    </div>
+                                    <div class="calendar-item__info">
+                                        <p class="calendar-item__title text text_small text_blue">@Model.Sonnuclar[i + 1].Race.Title</p>
+                                        <div class="calendar-item__place">
+                                            <p class="calendar-item__city text text_gray">@Model.Sonnuclar[i + 1].Race.Country</p>
+                                            <p class="calendar-item__when text text_gray">@Model.Sonnuclar[i + 1].Race.DateTime.ToString("HH:mm")-@Model.Sonnuclar[i + 1].Race.DateTime.ToString("HH:mm")</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            }
+
+                            <!-- Üçüncü yarış -->
+                            @if (i + 2 < Model.Sonnuclar.Count && Model.Sonnuclar[i + 2].IsActive == true)
+                            {
+                                <a class="calendar-item" asp-action="RaceAll" asp-controller="Home" asp-route-id="@Model.Sonnuclar[i + 2].RaceId">
+                                    <div class="calendar-item__date">
+                                        <div class="num text_title-big text_blue">@Model.Sonnuclar[i + 2].Race.DateTime.Day.ToString("00")</div>
+                                        <div class="month text_small-extra text_gray">@Model.Sonnuclar[i + 2].Race.DateTime.ToString("MMMM yyyy")</div>
+                                    </div>
+                                    <div class="calendar-item__info">
+                                        <p class="calendar-item__title text text_small text_blue">@Model.Sonnuclar[i + 2].Race.Title</p>
+                                        <div class="calendar-item__place">
+                                            <p class="calendar-item__city text text_gray">@Model.Sonnuclar[i + 2].Race.Country</p>
+                                            <p class="calendar-item__when text text_gray">@Model.Sonnuclar[i + 2].Race.DateTime.ToString("HH:mm")-@Model.Sonnuclar[i + 2].Race.DateTime.ToString("HH:mm")</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    }
+                </div>
+
+                <!--                <a class="btn btn btn_default btn_line-right" href="https://donate.triathlon.org.ua/">get a license</a>
+                   -->
+            </div>
+         @*    <div class="sidebar">
+                <img src="~/Projecss/wp-content/themes/triatlon/img/results-img.png" alt="">
+            </div> *@
+        </div>
+    </div>
+    <div class="sponsors-screen-wrap wrap">
+        <div class="sponsors-screen container">
+            <div class="title-default">SPONSORS AND PARTNERS</div>
+            <div class="sponsors-screen-slider">
+                <!-- НАЧАЛО ЦЫКЛА ДЛЯ ВЫВОДА ПОПУЛЯРНЫХ ЗАПИСЕЙ БЛОГА -->
+
+                <div class="sponsors-screen-slider__item">
+                    <a href="" target="_blank">
+                        <div class="sponsors-item"><img src="~/Projecss/wp-content/uploads/2023/03/group-34.jpg" alt="alt" /></div>
+                    </a>
+                </div>
+
+                <div class="sponsors-screen-slider__item">
+                    <a href="" target="_blank">
+                        <div class="sponsors-item"><img src="~/Projecss/wp-content/uploads/2023/03/imgonline-com-ua-resize-l5cb2ms0scgt.jpg" alt="alt" /></div>
+                    </a>
+                </div>
+
+                <div class="sponsors-screen-slider__item">
+                    <a href="#" target="_blank">
+                        <div class="sponsors-item"><img src="~/Projecss/wp-content/uploads/2021/02/2-5.png" alt="alt" /></div>
+                    </a>
+                </div>
+
+                <div class="sponsors-screen-slider__item">
+                    <a href="#" target="_blank">
+                        <div class="sponsors-item"><img src="~/Projecss/wp-content/uploads/2021/02/partner_3.png" alt="alt" /></div>
+                    </a>
+                </div>
+
+                <!-- КОНЕЦ ЦЫКЛА ДЛЯ ВЫВОДА ПОПУЛЯРНЫХ ЗАПИСЕЙ БЛОГА -->
+            </div>
+            <a class="btn btn btn_default btn_center btn_lines open-call-back">Become a sponsor</a>
+        </div>
+    </div>
+
+</div>
+@{
+    ViewData["Title"] = "Persons";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Language</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("ChangeLanguage", new { culture = "en" })">English</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("ChangeLanguage", new { culture = "tr" })">Türkçe</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("ChangeLanguage", new { culture = "ru" })">Русский</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<style>
+    .bi-chat-dots-fill{
+        color: #222831;
+
+        text-align:center;
+    }
+</style>
+<div class="chat-icon" id="chat-icon">
+    <i class="bi bi-chat-dots-fill"></i>
+</div>
+<div class="chat-widget" id="chat-widget">
+    <div class="chat-header">
+        <h4>Canlı Destek</h4>
+        <button id="chat-close">×</button>
+    </div>
+    <div class="chat-body">
+        <div class="chat-messages" id="chatMessages">
+            <ul id="messagesList">
+                @foreach (var message in Model.Messages)
+                {
+                    <li class="@(message.SenderUsername == Model.CurrentUsername ? "sent-message" : "received-message")">
+                        <strong>@message.SenderUsername:</strong> @message.Text
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="chat-input">
+            <form id="messageForm">
+                <input type="hidden" id="currentUsername" value="@Model.CurrentUsername" />
+                <input type="text" id="chat-input" name="message" placeholder="Mesajınızı yazın..." />
+                <button type="button" id="chat-send">Gönder</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chathub")
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+
+    connection.start().then(function () {
+        console.log("SignalR connected");
+    }).catch(function (err) {
+        return console.error(err.toString());
+    });
+
+    connection.on("ReceiveMessage", function (user, message) {
+        const li = document.createElement("li");
+        li.textContent = `${user}: ${message}`;
+        li.className = user === '@Model.CurrentUsername' ? 'sent-message' : 'received-message';
+        document.getElementById("messagesList").appendChild(li);
+        scrollToBottom();
+    });
+
+    $("#chat-send").click(function () {
+        const message = $("#chat-input").val();
+        sendMessage(message);
+        $("#chat-input").val(""); // Mesajı temizle
+    });
+
+    function sendMessage(message) {
+        const currentUsername = $("#currentUsername").val();
+        $.post("/Home/SendMessage", { message: message }, function (data) {
+            connection.invoke("SendMessage", currentUsername, message).catch(function (err) {
+                return console.error(err.toString());
+            });
+        });
+    }
+
+    function scrollToBottom() {
+        var chatMessages = document.getElementById("chatMessages");
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    $(document).ready(function () {
+        $("#chat-icon").click(function () {
+            $("#chat-widget").show();
+        });
+
+        $("#chat-close").click(function () {
+            $("#chat-widget").hide();
+        });
+
+        scrollToBottom();
+    });
+</script>
+
+
+<style>
+    .chat-widget {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 300px;
+        max-height: 500px;
+     
+        background: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        flex-direction: column;
+        z-index: 9999; /* Diğer elementlerden daha üstte görünmesini sağlar */
+    }
+
+
+    .chat-header {
+        padding: 10px;
+        background: #eca100;
+        color: #fff;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .chat-body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color:#222831;
+    }
+
+
+    .chat-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+        .chat-messages ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+
+
+    .chat-input {
+        border-top: 1px solid #ccc;
+        padding: 10px;
+        display: flex;
+        background-color: #222831;
+    }
+
+        .chat-input input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 4px;
+            margin-right: 5px;
+            background-color:aliceblue
+        }
+
+        .chat-input button {
+            padding: 5px 10px;
+            background: #eca100;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    .chat-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+        z-index: 9999; /* Diğer elementlerden daha üstte görünmesini sağlar */
+    }
+
+
+
+
+    .chat-messages li {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 80%; /* Maksimum genişlik belirleyerek uzun mesajların düzgün görünmesini sağlayalım */
+        word-wrap: break-word; /* Uzun kelimelerin düzgün bir şekilde sığmasını sağlayalım */
+    }
+
+    /* Stil for sent messages */
+    .sent-message {
+        text-align: left;
+        color: black;
+        background-color: #eca100;
+        margin-right: auto;
+    }
+
+    /* Stil for received messages */
+    .received-message {
+        text-align: right;
+        color: white;
+        background-color: green;
+        margin-left: auto;
+    }
+</style>
+
+
+
+
+<script src="~/js/chat.js"></script>
+
+
+
+<script>
+
+
+
+    // script.js
+    document.getElementById('chat-icon').addEventListener('click', function () {
+        document.getElementById('chat-widget').style.display = 'block';
+        this.style.display = 'none';
+    });
+
+    document.getElementById('chat-close').addEventListener('click', function () {
+        document.getElementById('chat-widget').style.display = 'none';
+        document.getElementById('chat-icon').style.display = 'flex';
+    });
+
+    // document.getElementById('chat-send').addEventListener('click', function () {
+    //     var input = document.getElementById('chat-input');
+    //     var message = input.value;
+    //     if (message.trim() !== '') {
+    //         addMessageToChat(message, 'chat-sent-message');
+    //         input.value = '';
+    //     }
+    // });
+
+    // document.querySelectorAll('.chat-question').forEach(button => {
+    //     button.addEventListener('click', function () {
+    //         var message = this.getAttribute('data-message');
+    //         document.querySelector('.chat-questions').style.display = 'none'; // Hide the questions
+    //         addMessageToChat(message, 'chat-sent-message');
+
+    //         // Show typing indicator
+    //         var typingIndicator = document.createElement('div');
+    //         typingIndicator.classList.add('typing-indicator');
+    //         typingIndicator.textContent = 'Yazıyor...';
+    //         document.querySelector('.chat-messages').appendChild(typingIndicator);
+
+    //         // Simulate bot response after 3 seconds
+    //         setTimeout(() => {
+    //             typingIndicator.remove();
+    //             addMessageToChat("Salam hormetli istifadeci, buyurun sualinizi teqdim eliye bilersiniz.", 'chat-message');
+    //         }, 3000);
+    //     });
+    // });
+
+    // function addMessageToChat(message, className) {
+    //     var messageElement = document.createElement('div');
+    //     messageElement.classList.add(className);
+    //     messageElement.textContent = message;
+    //     document.querySelector('.chat-messages').appendChild(messageElement);
+    // }
+
+</script>

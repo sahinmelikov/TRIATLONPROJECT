@@ -1,0 +1,248 @@
+﻿@using TriatlonProject.Models
+
+
+@model List<News>
+@{
+    int count = 1;
+}
+<style>
+    .trash-menu {
+        width: 100%;
+        height: auto;
+        background-color: #222831;
+        border-radius: 0.5rem;
+        color: #eca100;
+        padding: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+        .trash-menu p {
+            margin-bottom: 0.5rem;
+        }
+
+    .button-border {
+        border: 1px solid #eca100;
+        color: #eca100;
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        transition: all 0.3s ease;
+    }
+
+        .button-border:hover {
+            background-color: #eca100;
+            color: #222831;
+        }
+
+        .button-border.xeyr {
+            margin-left: 0.5rem;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f8f9fa;
+    }
+
+    .table-striped th {
+        background-color: #222831;
+        color: #eca100;
+    }
+
+
+
+
+    body {
+        background-color: #eca6; /* Sayfa arka plan rengi */
+    }
+
+    .card {
+        background-color: #f8f9fa; /* Kart arka plan rengi */
+    }
+
+    .table-responsive {
+        background-color: #ffffff; /* Tablo arka plan rengi */
+        border-radius: 0.5rem;
+        padding: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .table-striped {
+        background-color: #ffffff; /* Çizgili tablo arka plan rengi */
+    }
+
+
+    .table-striped td, .table-striped th {
+        border: none;
+    }
+
+    .btn-primary {
+        background-color: #eca100;
+        border-color: #eca100;
+    }
+
+        .btn-primary:hover {
+            background-color: #f3b72b;
+            border-color: #f3b72b;
+        }
+
+    .btn-secondary {
+        background-color: #222831;
+        border-color: #222831;
+        color: #eca100;
+    }
+
+        .btn-secondary:hover {
+            background-color: #393e46;
+            border-color: #393e46;
+            color: #eca100;
+        }
+
+    .modal-content {
+        background-color: #222831;
+        color: #eca100;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #393e46;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #393e46;
+    }
+</style>
+
+
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var deleteButtons = document.querySelectorAll(".delete");
+
+        deleteButtons.forEach(function (button) {
+            button.addEventListener("click", function () {
+                var trashMenu = this.parentNode.nextElementSibling;
+                toggleTrashMenu(trashMenu);
+            });
+        });
+
+        var noButtons = document.querySelectorAll(".button-border[type='reset']");
+
+        noButtons.forEach(function (button) {
+            button.addEventListener("click", function () {
+                var trashMenu = this.parentNode;
+                toggleTrashMenu(trashMenu);
+            });
+        });
+
+        // Menüyü açma ve kapama işlevi
+        function toggleTrashMenu(menu) {
+            if (menu.classList.contains("d-none")) {
+                menu.classList.remove("d-none");
+            } else {
+                menu.classList.add("d-none");
+            }
+        }
+    });
+</script>
+
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Striped Table</h4>
+            <p class="card-description">
+                <a asp-controller="News" asp-action="Create" type="button" class="btn btn-primary btn-lg">Create</a>
+            </p>
+            <div class="table-responsive w-75">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Count
+                            </th>
+                          
+                            <th>
+                               Title
+                            </th>
+                            <th>
+                             Description
+                            </th>
+                            <th>
+                                ImagePath
+                            </th>
+                            <th>
+                                DateTime
+                            </th>
+                            <th>
+                                Buttons
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="">
+                                <td>
+                                    @count
+                                </td>
+                                
+                                <td>
+                                    @item.Title
+                                </td>
+                                <td class="py-1">
+                                    <!-- Button trigger modal -->
+                                    <a asp-route-id="@item.Id" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#doctorModal_@item.Id">
+                                        Description
+                                    </a>
+
+                                    <!-- Modal for doctor's description -->
+                                    <div class="modal fade" id="doctorModal_@item.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Xeberler Haqqinda Etrafli Melumt</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    @item.Description
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                               <td class="py-1">
+                                    <img src="~/RootAllPictures/img/@item.ImagePath" alt="image">
+                                </td>
+                                <td>
+                                    @item.DateTime
+                                </td>
+                        
+                                <td class="d-flex flex-row  gap-3 ">
+                                    <div>
+                                        <a asp-route-id="@item.Id" asp-controller="News" asp-action="Update" type="button" class="btn btn-primary"><i class="bi bi-hand-index-thumb"></i></a>
+                                        <a class="btn btn-secondary delete"><i class="bi bi-trash3-fill"></i></a>
+
+                                    </div>
+                                
+                                    <div class="trash-menu text-center d-none">
+                                        <p class="mb-3 " style="color:#ccc">Məhsulu səbətdən silmək istədiyinizə əminsiniz?</p>
+                                        <p></p>
+                                        <a asp-route-id="@item.Id" asp-action="Delete" asp-controller="Position" class="button-border btn" type="submit">Bəli</a>
+
+                                        <button type="reset" class="button-border xeyr">Xeyr</button>
+                                    </div>
+
+                                </td>
+                              
+                                    
+                            </tr>
+                            count++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

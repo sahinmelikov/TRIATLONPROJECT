@@ -1,0 +1,65 @@
+﻿@model TriatlonProject.Models.RaceRegisterUser
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triatlon Sonuç Ekleyin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Triatlon Sonuç Ekleyin</h2>
+
+        <form  asp-controller="ReqisterRaceUser" asp-action="Create" method="post">
+            <div class="form-group">
+                <label for="Name">Ad:</label>
+                <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" readonly />
+            </div>
+            <div class="form-group">
+                <label for="SurName">Soyad:</label>
+                <input type="text" class="form-control" id="SurName" name="SurName" value="@Model.SurName" readonly />
+            </div>
+            <div class="form-group">
+                <label for="EmailAddres">Email Adresi:</label>
+                <input type="email" class="form-control" id="EmailAddres" name="EmailAddres" value="@Model.EmailAddres" readonly />
+            </div>
+            <div class="form-group">
+                <label for="Country">Ülke:</label>
+                <input type="text" class="form-control" id="Country" name="Country" value="@Model.Country" readonly />
+            </div>
+            <div class="form-group">
+                <label for="NewYear">Doğum Tarihi:</label>
+                <input type="date" class="form-control" id="NewYear" name="NewYear" value="@Model.NewYear" readonly />
+            </div>
+            <div class="form-group">
+                <label for="Cinsi">Cinsi:</label>
+                <input type="text" class="form-control" id="Cinsi" name="Cinsi" value="@Model.Cinsi" readonly />
+            </div>
+            <div class="form-group">
+                <label for="Comando">Comando:</label>
+                <input type="text" class="form-control" id="Comando" name="Comando" value="@Model.Comando" readonly />
+            </div>
+            <div class="form-group">
+                <label for="T_ShirtSie">T-Shirt Bedeni:</label>
+                <input type="text" class="form-control" id="T_ShirtSie" name="T_ShirtSie" value="@Model.T_ShirtSie" readonly />
+            </div>
+            <div class="form-group">
+                <label for="RaceId">Katıldığı Yarış:</label>
+                <input type="text" class="form-control" id="RaceId" name="RaceId" value="@Model.RaceId" readonly />
+            </div>
+            <div class="form-group">
+                <label for="Comando">Sonuc:</label>
+                <input type="text" class="form-control" id="Sonuc" name="Sonuc" placeholder="Sonucu girin" value="@Model.Sonuc" />
+            </div>
+            <button type="submit" class="btn btn-primary">Sonuç Ekle</button>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

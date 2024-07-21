@@ -1,0 +1,150 @@
+﻿@model List<TriatlonProject.Models.RaceRegisterUser>
+
+@{
+    ViewData["Title"] = "Race Details";
+}
+<br /><br />
+<h1 class="race-title">@Model.FirstOrDefault()?.Race.Name</h1>
+
+@if (Model.Count == 0)
+{
+    <p class="no-participants">There are no participants for this race yet.</p>
+}
+else
+{
+    <div class="table-container">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>New Year</th>
+                    <th>Sonuclar</th>
+                    <th>
+                        <a href="@Url.Action("DownloadAll", "Home", new { id = Model.FirstOrDefault()?.RaceId })" class="download-icon" title="Download All">&#x1F4BE;</a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    var race = Model[i];
+                    <tr>
+                        <td>@(i + 1)</td>
+                        <td>@race.Name</td>
+                        <td>@race.SurName</td>
+                        <td>@race.NewYear</td>
+                        <td>@race.Sonuc</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222831;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .race-title {
+        color: #eca100;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .no-participants {
+        color: #222831;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+    .table-container {
+        position: relative;
+        padding: 20px;
+        overflow-x: auto;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .styled-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 1.2em;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+        position: relative;
+        z-index: 1;
+    }
+
+    .styled-table thead tr {
+        background-color: #222831;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+        text-align: center;
+    }
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #eca100;
+    }
+
+    .styled-table tbody tr:hover {
+        background-color: #eca100;
+        color: #ffffff;
+    }
+
+    .download-icon {
+        font-size: 1.5em;
+        color: #222831;
+        text-decoration: none;
+        float: right;
+        margin-left: 10px;
+    }
+
+    .download-icon:hover {
+        color: #eca100;
+    }
+
+    /* Background Animation */
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #222831, #eca100);
+        background-size: 400% 400%;
+        z-index: -1;
+        animation: gradient 15s ease infinite;
+    }
+
+    @@keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+</style>

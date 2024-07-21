@@ -1,0 +1,127 @@
+﻿<style>
+    .account-page {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .user-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .user-info {
+        text-align: center;
+    }
+
+        .user-info input {
+            text-align: center;
+        }
+
+    .account-menu {
+        width: 30%;
+        margin-top: 50px;
+    }
+
+        .account-menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            .account-menu ul li {
+                margin-bottom: 10px;
+            }
+
+                .account-menu ul li a {
+                    text-decoration: none;
+                    color: #007bff;
+                }
+
+                    .account-menu ul li a.active-link {
+                        font-weight: bold;
+                    }
+                    label{
+                        color:black
+
+                    }
+</style>
+
+
+<div class="container">
+    <div class="account-page">
+        
+        <!-- Sol Taraf: Kullanıcı Bilgileri ve Resmi -->
+        <div class="account-info">
+            <!-- Kullanıcı İkonu -->
+            <div class="user-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="Name">Ad:</label>
+                    <input type="text" class="form-control" id="Name" name="Name" value="Kullanıcı Adı" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="SurName">Soyad:</label>
+                    <input type="text" class="form-control" id="SurName" name="SurName" value="Kullanıcı Soyadı" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="EmailAddres">Email Adresi:</label>
+                    <input type="email" class="form-control" id="EmailAddres" name="EmailAddres" value="email@example.com" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="Country">Ülke:</label>
+                    <input type="text" class="form-control" id="Country" name="Country" value="Ülke" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="NewYear">Doğum Tarihi:</label>
+                    <input type="date" class="form-control" id="NewYear" name="NewYear" value="1990-01-01" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="Gender">Cinsiyet:</label>
+                    <input type="text" class="form-control" id="Gender" name="Gender" value="Cinsiyet" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="TShirtSize">T-Shirt Bedeni:</label>
+                    <input type="text" class="form-control" id="TShirtSize" name="TShirtSize" value="M" readonly>
+                </div>
+            </form>
+        </div>
+
+        <!-- Sağ Taraf: Menü -->
+        <div class="account-menu">
+            <div class="menu-lk filter sticky-md-top">
+                <div class="filter-wrap">
+                    <ul>
+                        <li><a asp-action="MyRaces" asp-controller="Account" class="">My races</a></li>
+                        <li><a asp-action="MyResults" asp-controller="Account" class="">Results</a></li>
+                       
+                        <li><a href="/en/personal/balance/" class="">Balance</a></li>
+                        <li><a asp-action="MyAccount"asp-controller="Account" class="active-link active">My account</a></li>
+                        <li><a  class="">Basket (0)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome Kullanımı için -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -1,0 +1,145 @@
+﻿@using TriatlonProject.ViewModel
+@model ChatViewModel
+<style>
+
+    .filter-options {
+    margin-bottom: 20px;
+}
+
+.filter-options .form-group {
+    margin-bottom: 10px;
+}
+
+.filter-options label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filter-options select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@@media (max-width: 768px) {
+    .filter-options .form-group {
+        margin-bottom: 15px;
+    }
+}
+
+</style>
+<section class="events events-section">
+    <div class="container">
+        <div class="filter-options">
+            <div class="row">
+                <!-- Dropdown for City -->
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="city">Şəhər</label>
+                        <select class="form-control" id="city">
+                            <option value="">Seçin</option>
+                            <option value="city1">City 1</option>
+                            <option value="city2">City 2</option>
+                            <option value="city3">City 3</option>
+                            <!-- Add other cities as needed -->
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Dropdown for Year -->
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="year">İl</label>
+                        <select class="form-control" id="year">
+                            <option value="">Seçin</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <!-- Add other years as needed -->
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Dropdown for Event Type -->
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="eventType">Etkinlik Türü</label>
+                        <select class="form-control" id="eventType">
+                            <option value="">Seçin</option>
+                            <option value="swim">Uzmə</option>
+                            <option value="bike">Velosiped</option>
+                            <option value="run">Qaçış</option>
+                            <!-- Add other event types as needed -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inner-head">
+            <div class="inner-head-left">
+                <h2 style="color:black">Upcoming events</h2>
+            </div>
+            <div class="inner-head-right">
+                <a href="/en/results/" class="btn btn-black">Results archive</a>
+            </div>
+        </div>
+
+        <div class="event-list">
+            <div class="row">
+                @foreach (var item in Model.Races)
+                {
+                    <div class="col-lg-4 col-6 col-xxs-12">
+                        <div class="event-item-wrap">
+                            <a href="/en/event/ironstar-113-new-star-2024/" title="" class="event-item">
+                                <div class="event-item-head">
+                                    <div class="title">@item.Name</div>
+                                    <div class="event-head-info">
+                                        <div class="date">@item.DateTime</div>
+                                        <div class="place">@item.Country</div>
+                                    </div>
+                                </div>
+                                <div class="event-image">
+                                    <picture>
+                                        <source media="(max-width: 1024px)" srcset="~/RootAllPictures/img/@item.ImagePath 1x, ~/RootAllPictures/img/@item.ImagePath 2x">
+                                        <source media="(min-width: 1025px)" srcset="~/RootAllPictures/img/@item.ImagePath 1x, ~/RootAllPictures/img/@item.ImagePath 2x">
+                                        <img src="~/RootAllPictures/img/@item.ImagePath" alt="@item.Title" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="event-footer">
+                                    <div class="triathlon">
+                                        <div class="triathlon-item">
+                                            <use href="~/Projecss/_nuxt/icons.xc1H9Ru_.svg#swim"></use>
+                                            <div class="distance">@item.UzgucuYolu km</div>
+                                        </div>
+                                        <div class="triathlon-item">
+                                            <svg class="icons">
+                                                <use href="~/Projecss/_nuxt/icons.xc1H9Ru_.svg#bike"></use>
+                                            </svg>
+                                            <div class="distance">@item.VeloYolu km</div>
+                                        </div>
+                                        <div class="triathlon-item">
+                                            <svg class="icons">
+                                                <use href="~/Projecss/_nuxt/icons.xc1H9Ru_.svg#run"></use>
+                                            </svg>
+                                            <div class="distance">@item.YarishYolu km</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="hover-buttons">
+                                <a asp-route-id="@item.Id" asp-controller="Home" asp-action="RegisterYarishma" class="btn btn-white">Register</a>
+                                <a asp-route-id="@item.Id" asp-action="ViewDetailsRace" asp-controller="Home" class="btn btn-white">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="link-holder">
+            <a href="/en/events/" class="btn btn-white">All events</a>
+        </div>
+    </div>
+</section>

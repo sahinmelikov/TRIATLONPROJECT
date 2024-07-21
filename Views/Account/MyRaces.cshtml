@@ -1,0 +1,113 @@
+﻿@model List<TriatlonProject.Models.RaceRegisterUser>
+
+@{
+    ViewData["Title"] = "My Races";
+}
+
+<br />
+<br />
+<br />
+<h1 class="title">My Races</h1>
+
+@if (Model.Count == 0)
+{
+    <p class="no-races">You haven't registered for any races yet.</p>
+}
+else
+{
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Race Name</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var race in Model)
+            {
+                <tr>
+                    <td>@race.Race.Name</td>
+                    <td>@race.Race.Country</td>
+                    <td>@race.Race.DateTime.ToString("yyyy dd MMMM")</td>
+                    @if (race.Sonuc == null)
+                    {
+                        <td class="no-result">Neticeler hele belli olmayib, belli oldugu halda size email vasitesile gondereceyik</td>
+                    }
+                    else
+                    {
+                        <td>@race.Sonuc</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222831;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        color: #222831;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .no-races {
+        color: #222831;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+    .styled-table {
+        border-collapse: collapse;
+        margin: 25px auto;
+        font-size: 1.2em;
+        min-width: 600px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+    }
+
+        .styled-table thead tr {
+            background-color: #222831;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+            text-align: center;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            .styled-table tbody tr:last-of-type {
+                border-bottom: 2px solid #eca100;
+            }
+
+            .styled-table tbody tr:hover {
+                background-color: #eca100;
+                color: #ffffff;
+            }
+
+    .no-result {
+        color: red;
+        font-weight: bold;
+    }
+</style>

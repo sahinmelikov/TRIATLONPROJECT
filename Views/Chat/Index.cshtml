@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Canlı Destek";
+    string username = ViewData["Username"].ToString();
+}
+
+<div class="chat-icon" id="chat-icon">
+    💬
+</div>
+<div class="chat-widget" id="chat-widget">
+    <div class="chat-header">
+        <h4>Canlı Destek</h4>
+        <button id="chat-close">×</button>
+    </div>
+    <div class="chat-body">
+        <div class="chat-messages">
+            <ul id="messagesList"></ul>
+        </div>
+        <div class="chat-questions">
+            <p>Size nasıl yardımcı olabilirim?</p>
+            <button class="chat-question" data-message="Operatör ile iletişime geçmek istiyorum">Operatör ile iletişime geçmek istiyorum</button>
+            <button class="chat-question" data-message="Para yatıramıyorum">Para yatıramıyorum</button>
+            <button class="chat-question" data-message="Alışveriş yapamıyorum">Alışveriş yapamıyorum</button>
+            <button class="chat-question" data-message="Hesabımı göremiyorum">Hesabımı göremiyorum</button>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-input" placeholder="Mesajınızı yazın..." />
+            <button id="chat-send">Gönder</button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.3/signalr.min.js"></script>
+    <script>
+        var username = "@username";
+
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+        connection.on("ReceiveMessage", function (username, message) {
+            var msg = username + ": " + message;
+            var li = document.createElement("li");
+            li.textContent = msg;
+            document.getElementById("messagesList").appendChild(li);
+        });
+
+        connection.start().catch(function (err) {
+            return console.error(err.toString());
+        });
+
+        document.getElementById("chat-send").addEventListener("click", function (event) {
+            var message = document.getElementById("chat-input").value;
+            connection.invoke("SendMessage", username, message).catch(function (err) {
+                return console.error(err.toString());
+            });
+            event.preventDefault();
+        });
+
+        document.querySelectorAll('.chat-question').forEach(button => {
+            button.addEventListener('click', function () {
+                var message = this.getAttribute('data-message');
+                connection.invoke("SendMessage", username, message).catch(function (err) {
+                    return console.error(err.toString());
+                });
+            });
+        });
+    </script>
+}

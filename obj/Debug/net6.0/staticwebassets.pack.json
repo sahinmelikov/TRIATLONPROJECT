@@ -1,0 +1,1677 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TriatlonProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TriatlonProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\3Ue6NacK.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\3Ue6NacK.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\3W3kE5Jc.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\3W3kE5Jc.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\438wU9fJ.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\438wU9fJ.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\7zTc5CpY.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\7zTc5CpY.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\B4KS3TuP.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\B4KS3TuP.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\B4sBjfop.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\B4sBjfop.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\B6iKLWaP.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\B6iKLWaP.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BAwekDs2.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BAwekDs2.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BDL_x2F5.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BDL_x2F5.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BEn497Pz.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BEn497Pz.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BFduWOoW.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BFduWOoW.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BGz5aeao.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BGz5aeao.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BM33VhKc.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BM33VhKc.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BPUH4JHD.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BPUH4JHD.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BYKg1SCn.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BYKg1SCn.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\B_dvM0pQ.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\B_dvM0pQ.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BaSATF8Z.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BaSATF8Z.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Bay5xCYK.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Bay5xCYK.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BbOvCLiC.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BbOvCLiC.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BbfSR_Ej.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BbfSR_Ej.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BcRWa55z.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BcRWa55z.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BfWe1yh-.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BfWe1yh-.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Bg58jxrP.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Bg58jxrP.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Bmqr94Gi.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Bmqr94Gi.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Bo3olcGw.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Bo3olcGw.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BqEknKSJ.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BqEknKSJ.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BqTjkno-.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BqTjkno-.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Bu30w2UE.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Bu30w2UE.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BvQgWdB0.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BvQgWdB0.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Bx1OcFTh.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Bx1OcFTh.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\BxP8HXiW.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\BxP8HXiW.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\C1CCw54r.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\C1CCw54r.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\C3eiV9eZ.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\C3eiV9eZ.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\C8BQHYZi.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\C8BQHYZi.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CAci_FPM.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CAci_FPM.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CDKY-RUU.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CDKY-RUU.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CHXXxOy-.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CHXXxOy-.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CI3kPauM.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CI3kPauM.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CJrt3tAi.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CJrt3tAi.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CNVwhAzt.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CNVwhAzt.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CNmUNVPL.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CNmUNVPL.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CWI3wdPG.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CWI3wdPG.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CaxInB52.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CaxInB52.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CdG0B5iS.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CdG0B5iS.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Cgfb2pr_.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Cgfb2pr_.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CkOkU0We.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CkOkU0We.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CmRLMSal.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CmRLMSal.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CqiT2kZx.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CqiT2kZx.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CtpbzS-f.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CtpbzS-f.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Ctq6v3cF.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Ctq6v3cF.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Cu5kvIN4.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Cu5kvIN4.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CwwJffYC.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CwwJffYC.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CyAn8n-y.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CyAn8n-y.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CyCUcgYy.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CyCUcgYy.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\CyvmEBDe.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\CyvmEBDe.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\D7YwBTy_.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\D7YwBTy_.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\D97F5NmH.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\D97F5NmH.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DA3s9WCX.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DA3s9WCX.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DAmYokjo.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DAmYokjo.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DEC3fb4Z.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DEC3fb4Z.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DEWfEbZt.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DEWfEbZt.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DH3-Mkvj.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DH3-Mkvj.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DJmDCQjL.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DJmDCQjL.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DJzENhv0.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DJzENhv0.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DNOlB8Xy.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DNOlB8Xy.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DT5KE1-1.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DT5KE1-1.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Deu5CiWm.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Deu5CiWm.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DpIuk7_0.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DpIuk7_0.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DspA-NJo.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DspA-NJo.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DszfDTQr.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DszfDTQr.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Dv4En90A.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Dv4En90A.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\DyJPHA96.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\DyJPHA96.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\ItgtrmpN.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\ItgtrmpN.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\M_pVyrF-.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\M_pVyrF-.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Mhzlbvrj.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Mhzlbvrj.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\RouteMap.CsL6Qw8G.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\RouteMap.CsL6Qw8G.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\TPQ_BZzG.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\TPQ_BZzG.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\VOJymde5.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\VOJymde5.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\X7eZhn6A.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\X7eZhn6A.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\Xv5KstGQ.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\Xv5KstGQ.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\YU89knj8.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\YU89knj8.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\_camps.SlUb8CoF.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\_camps.SlUb8CoF.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\aXYSAK1N.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\aXYSAK1N.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\bIp8vrNC.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\bIp8vrNC.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\c-ZnYkb2.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\c-ZnYkb2.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\contacts.BjIE3Rws.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\contacts.BjIE3Rws.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\entry.MN5E7vKX.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\entry.MN5E7vKX.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\flags.BMGzDaSLc4ca.png",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\flags.BMGzDaSLc4ca.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\flags_2x.DTOyOn_-c4ca.png",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\flags_2x.DTOyOn_-c4ca.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\index.CcRMKd7z.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\index.CcRMKd7z.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\rcNBlvO_.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\rcNBlvO_.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\requisites.CwLKJCZw.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\requisites.CwLKJCZw.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\tQQT7F4n.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\tQQT7F4n.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\vTIBdjwe.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\vTIBdjwe.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\vue-yandex-maps.DHLzW3M6.css",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\vue-yandex-maps.DHLzW3M6.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\_nuxt\\z1mF-5nA.js",
+      "PackagePath": "staticwebassets\\Projecss\\_nuxt\\z1mF-5nA.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\Projecss\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\Projecss\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\cdnjs.cloudflare.com\\ajax\\libs\\slick-carousel\\1.9.0\\slick.min.css",
+      "PackagePath": "staticwebassets\\Projecss\\cdnjs.cloudflare.com\\ajax\\libs\\slick-carousel\\1.9.0\\slick.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\cdnjs.cloudflare.com\\ajax\\libs\\slick-carousel\\1.9.0\\slick.min.js",
+      "PackagePath": "staticwebassets\\Projecss\\cdnjs.cloudflare.com\\ajax\\libs\\slick-carousel\\1.9.0\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\plugins\\contact-form-7\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\plugins\\contact-form-7\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\plugins\\contact-form-7\\includes\\css\\styles9dff.css",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\plugins\\contact-form-7\\includes\\css\\styles9dff.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\plugins\\contact-form-7\\includes\\js\\scripts9dff.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\plugins\\contact-form-7\\includes\\js\\scripts9dff.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\plugins\\wp-pagenavi\\pagenavi-css44fd.css",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\plugins\\wp-pagenavi\\pagenavi-css44fd.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\css\\all_style.css",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\css\\all_style.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\Federation_Phone.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\Federation_Phone.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\Federation_Tablet.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\Federation_Tablet.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\GENERAL_TABLET_BIG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\GENERAL_TABLET_BIG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\GENERAL_TABLET_SMALL.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\GENERAL_TABLET_SMALL.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\General_mobile.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\General_mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\News_Phone.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\News_Phone.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\News_Tablet.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\News_Tablet.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\Zbirna_Tablet.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\Zbirna_Tablet.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\Zbirna_phone.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\Zbirna_phone.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\errorBG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\errorBG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\federation-firstBG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\federation-firstBG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\firstBG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\firstBG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\logo_3.svg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\logo_3.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\mainBG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\mainBG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\mainBG_1366.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\mainBG_1366.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-1.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-1.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-2.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-2.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-3.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-3.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-4.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\navigation-bg-mob-4.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\news-firstBG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\news-firstBG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\results-img.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\results-img.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\img\\team-firstBG.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\img\\team-firstBG.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\js\\all_js6fd4.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\js\\all_js6fd4.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\js\\all_libs6fd4.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\js\\all_libs6fd4.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\js\\navigation8a54.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\js\\navigation8a54.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\js\\parse6fd4.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\js\\parse6fd4.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\themes\\triatlon\\style8a54.css",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\themes\\triatlon\\style8a54.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\1.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\10.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\11.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\18620040_1357799957648111_6135464241263920742_n.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\18620040_1357799957648111_6135464241263920742_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\2.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\3.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\3.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\39883494_10215047231348114_5956790284279873536_n.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\39883494_10215047231348114_5956790284279873536_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\4.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\44597039_10215234707319212_5441436930799566848_n.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\44597039_10215234707319212_5441436930799566848_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\5-1024x720.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\5-1024x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\6-1024x393.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\6-1024x393.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\7-1024x659.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\7-1024x659.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\8-1024x604.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\8-1024x604.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\9-300x190.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\9-300x190.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\KAR_8618.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\KAR_8618.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\WinterTriathlon1.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\WinterTriathlon1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\sapunova_web-300x196.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\sapunova_web-300x196.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2019\\02\\triathlon-osiglia-2011-154326.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2019\\02\\triathlon-osiglia-2011-154326.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\2-5.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\2-5.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\2.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\3.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\4.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\cropped-fav_icon_2-2-180x180.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\cropped-fav_icon_2-2-180x180.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\cropped-fav_icon_2-2-192x192.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\cropped-fav_icon_2-2-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\cropped-fav_icon_2-2-32x32.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\cropped-fav_icon_2-2-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\icon.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\partner_3.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\partner_3.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\triatlon.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\triatlon.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2021\\02\\triatlonsite.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2021\\02\\triatlonsite.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\03\\group-34.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\03\\group-34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\03\\imgonline-com-ua-resize-l5cb2ms0scgt.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\03\\imgonline-com-ua-resize-l5cb2ms0scgt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\11\\triathlon_elite_2023.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\11\\triathlon_elite_2023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\lviv-women.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\lviv-women.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\lviv_logo-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\lviv_logo-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\lviv_logo-670x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\lviv_logo-670x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\olymp_r-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\olymp_r-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\olymp_r-760x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\olymp_r-760x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\roundtable-1-362x294.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\roundtable-1-362x294.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2023\\12\\roundtable-1.png",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2023\\12\\roundtable-1.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\izobrazhenie_viber_2024-02-17_10-19-59-271-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\izobrazhenie_viber_2024-02-17_10-19-59-271-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\izobrazhenie_viber_2024-02-17_10-19-59-271-760x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\izobrazhenie_viber_2024-02-17_10-19-59-271-760x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\izobrazhenie_viber_2024-02-17_12-54-54-880.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\izobrazhenie_viber_2024-02-17_12-54-54-880.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\lviv-2024_sichen_logo-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\lviv-2024_sichen_logo-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\lviv-2024_sichen_logo-592x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\lviv-2024_sichen_logo-592x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\voronczov-la-gaujra_1-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\voronczov-la-gaujra_1-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\02\\voronczov-la-gaujra_1-687x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\02\\voronczov-la-gaujra_1-687x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\kuartejra-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\kuartejra-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\kuartejra-760x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\kuartejra-760x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\para_2024-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\para_2024-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\para_2024-670x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\para_2024-670x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\snimok-ekrana-2024-03-16-121926.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\snimok-ekrana-2024-03-16-121926.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\snimok-ekrana-2024-03-18-182602-362x316.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\snimok-ekrana-2024-03-18-182602-362x316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-content\\uploads\\2024\\03\\snimok-ekrana-2024-03-18-182602-679x300.jpg",
+      "PackagePath": "staticwebassets\\Projecss\\wp-content\\uploads\\2024\\03\\snimok-ekrana-2024-03-18-182602-679x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-includes\\css\\dist\\block-library\\style.mine23c.css",
+      "PackagePath": "staticwebassets\\Projecss\\wp-includes\\css\\dist\\block-library\\style.mine23c.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-includes\\js\\comment-reply.mine23c.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-includes\\js\\comment-reply.mine23c.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-includes\\js\\jquery\\jquery-migrate.mind617.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-includes\\js\\jquery\\jquery-migrate.mind617.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-includes\\js\\jquery\\jquery.min9d52.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-includes\\js\\jquery\\jquery.min9d52.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\Projecss\\wp-includes\\js\\wp-embed.mine23c.js",
+      "PackagePath": "staticwebassets\\Projecss\\wp-includes\\js\\wp-embed.mine23c.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\02949898-0aa2-43ed-9c5e-90d29b691687AR4_6114.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\02949898-0aa2-43ed-9c5e-90d29b691687AR4_6114.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\0580a4f5-255e-4c8f-ac51-2c08d5f144f4ff.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\0580a4f5-255e-4c8f-ac51-2c08d5f144f4ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\08b896fc-86e6-412b-8c15-8b8ec1087054AR4_6114.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\08b896fc-86e6-412b-8c15-8b8ec1087054AR4_6114.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\14c6e964-0d6c-4589-af46-e05074f88e92bb.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\14c6e964-0d6c-4589-af46-e05074f88e92bb.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\32f8ced1-019d-459c-a78a-0f131a389e27Ramil_Guliyev_London_2017.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\32f8ced1-019d-459c-a78a-0f131a389e27Ramil_Guliyev_London_2017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\35d6addc-fd4d-4680-a22c-033107073f30ANG2_6377.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\35d6addc-fd4d-4680-a22c-033107073f30ANG2_6377.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\5363e401-ce48-4ff2-a4df-ef86068374cctriatlonsite.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\5363e401-ce48-4ff2-a4df-ef86068374cctriatlonsite.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\5507f855-cb40-476d-afc7-28e024d86f6bRamil_Guliyev_London_2017.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\5507f855-cb40-476d-afc7-28e024d86f6bRamil_Guliyev_London_2017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\616ae023-601c-4762-baf7-04142b88a46aaa.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\616ae023-601c-4762-baf7-04142b88a46aaa.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\69af335b-a006-436c-b089-4b9bf52fa2e4triatlonsite.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\69af335b-a006-436c-b089-4b9bf52fa2e4triatlonsite.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\862bea7c-80a1-4e9e-bc81-5cea0c11b916Ramil_Guliyev_London_2017.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\862bea7c-80a1-4e9e-bc81-5cea0c11b916Ramil_Guliyev_London_2017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\a3012d60-a6dd-4390-9afb-1f3a19d46b69ff.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\a3012d60-a6dd-4390-9afb-1f3a19d46b69ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\a87211f3-09f4-4fea-8f9b-92cfe63a4658Ramil_Guliyev_London_2017.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\a87211f3-09f4-4fea-8f9b-92cfe63a4658Ramil_Guliyev_London_2017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\c3658482-e949-4254-8522-d0cfa0381272Ekran şəkli 2024-05-23 181031.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\c3658482-e949-4254-8522-d0cfa0381272Ekran şəkli 2024-05-23 181031.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\c82f5cee-ca13-4696-ba08-b74feb6ec846cc.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\c82f5cee-ca13-4696-ba08-b74feb6ec846cc.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\d037cb08-aabb-45aa-b6d5-3bb29a502751aa.png",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\d037cb08-aabb-45aa-b6d5-3bb29a502751aa.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\instagram-mobile-app-logo-instagram-app-icon-ig-app-free-free-vector.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\instagram-mobile-app-logo-instagram-app-icon-ig-app-free-free-vector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\RootAllPictures\\img\\user-icon-person-icon-client-symbol-login-head-sign-icon-design-vector.jpg",
+      "PackagePath": "staticwebassets\\RootAllPictures\\img\\user-icon-person-icon-client-symbol-login-head-sign-icon-design-vector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\template\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\template\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\documentation\\documentation.html",
+      "PackagePath": "staticwebassets\\admin\\template\\documentation\\documentation.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\template\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\gulpfile.js",
+      "PackagePath": "staticwebassets\\admin\\template\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\template\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\index.html",
+      "PackagePath": "staticwebassets\\admin\\template\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\template\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\package-lock.json",
+      "PackagePath": "staticwebassets\\admin\\template\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\package.json",
+      "PackagePath": "staticwebassets\\admin\\template\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\admin\\template\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\admin\\template\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\admin\\template\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\partials\\_settings-panel.html",
+      "PackagePath": "staticwebassets\\admin\\template\\partials\\_settings-panel.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\admin\\template\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\template\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\template\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\css\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\icon\\qacaninsan.png",
+      "PackagePath": "staticwebassets\\icon\\qacaninsan.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\icon\\uzeninsan.png",
+      "PackagePath": "staticwebassets\\icon\\uzeninsan.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\icon\\velosibed.png",
+      "PackagePath": "staticwebassets\\icon\\velosibed.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\images\\cyclist.png",
+      "PackagePath": "staticwebassets\\images\\cyclist.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\images\\runner.png",
+      "PackagePath": "staticwebassets\\images\\runner.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\images\\swimmer.png.jpg",
+      "PackagePath": "staticwebassets\\images\\swimmer.png.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\js\\operator.js",
+      "PackagePath": "staticwebassets\\js\\operator.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\TriatlonProject\\TriatlonProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TriatlonProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TriatlonProject.props",
+      "PackagePath": "build\\TriatlonProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TriatlonProject.props",
+      "PackagePath": "buildMultiTargeting\\TriatlonProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TriatlonProject.props",
+      "PackagePath": "buildTransitive\\TriatlonProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

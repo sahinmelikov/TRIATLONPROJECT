@@ -1,0 +1,1 @@
+import{r as a,m as n,k as r,ak as c,ai as u,o as i,a as l,t as p,q as _}from"./bIp8vrNC.js";const m={key:0},d={__name:"Title",setup(k){const e=a(""),{page:t}=n(r());function o(){e.value=t&&t.value.h1||""}o();const s=c().hook("page:finish",()=>{o()});return u(()=>s()),(f,h)=>e.value?(i(),l("h1",m,p(e.value),1)):_("",!0)}};export{d as _};
